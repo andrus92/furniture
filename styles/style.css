@@ -1,0 +1,198 @@
+/* sass styles/style.scss:styles/style.css --watch*/
+@font-face {
+  font-family: "Nunito";
+  src: url(../fonts/Nunito-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.woff) format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-SemiBold.woff) format("woff");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Bold.woff) format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 400 22px/1.36 "Nunito", Arial, Helvetica, sans-serif;
+  color: #282A30;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #282A30;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 25px 55px;
+  border: none;
+  color: #fff;
+  font: 600 22px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  background-color: #F7515C;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #282A30;
+}
+.btn:focus {
+  background-color: rgba(40, 42, 48, 0.8);
+}
+.btn[disabled], .btn.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.btn-icon {
+  background-color: transparent;
+  color: #000;
+  border: none;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header {
+  padding: 0 71px;
+}
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  line-height: 0;
+}
+.header__logo-img {
+  max-width: 177px;
+  max-height: 48px;
+  width: auto;
+  height: auto;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+}
+.header__nav-item {
+  padding: 0 53px;
+}
+.header__nav-link {
+  font: 400 19px/1.2 "Nunito", Arial, Helvetica, sans-serif;
+}
+.header__nav-link:hover {
+  color: #F7515C;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  margin: 0 -42px;
+}
+.header__action {
+  padding: 0 42px;
+}
+
+.footer {
+  margin: 74px 0 0;
+}
+.footer hr {
+  height: 2px;
+  background: #282A30;
+}
+.footer__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0 71px;
+  margin: 0 -15px;
+}
+.footer__card-box {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer__card-title {
+  font: 700 26px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
+  display: block;
+  margin-bottom: 51px;
+  letter-spacing: 1px;
+}
+.footer__card-list-item a {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 27px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  position: relative;
+}
+.footer__card-list-item a:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #F7515C;
+  left: 0;
+  bottom: -2px;
+  transition: all 0.3s;
+}
+.footer__card-list-item a:hover {
+  color: #F7515C;
+}
+.footer__card-list-item a:hover:before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

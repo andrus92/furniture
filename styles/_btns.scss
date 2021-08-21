@@ -1,0 +1,37 @@
+.btn {
+    display: block;
+    width: 100%;
+    padding: 25px 55px;
+    border: none;
+    color: $white-color;
+    font: 600 22px/1.22 $montserrat-font;
+    background-color: $primary-color;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $main-color;
+        
+    }
+
+    &:focus {
+        background-color: rgba($main-color, 0.8);
+    }
+
+    &[disabled],
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.6;
+    }
+}
+
+.btn-icon {
+    background-color: transparent;
+    color: $black-color;
+    border: none;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}

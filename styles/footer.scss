@@ -1,0 +1,64 @@
+.footer {
+
+    margin: 74px 0 0;
+    & hr {
+        height: 2px;
+        background: $main-color;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+        padding: 100px 0 71px;
+        margin: 0 -15px;
+    }
+
+    &__card-box {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    &__card {       
+
+        &-title {
+            font: $h5-font;
+            display: block;
+            margin-bottom: 51px;
+            letter-spacing: 1px;
+        }
+
+        &-list-item a {
+            font-family: $montserrat-font;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.2;
+            display: block;
+            margin-bottom: 27px;
+            opacity: 0.8;
+            letter-spacing: 1px;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                width: 0;
+                height: 1px;
+                background-color: $primary-color;
+                left: 0;
+                bottom: -2px;
+                transition: all 0.3s;
+            }
+
+            &:hover {
+                color: $primary-color;
+
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+}
