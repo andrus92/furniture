@@ -145,24 +145,22 @@ a {
 }
 
 .moreValue {
-  padding: 139px 95px 74px;
+  padding: 139px 189px 74px 95px;
 }
 .moreValue__wrap {
   display: flex;
-  margin: 0 -109px;
+  margin: 0 -90px;
 }
 .moreValue__box {
   width: 50%;
-  padding: 0 109px;
+  padding: 0 90px;
 }
 .moreValue__card {
   height: 714px;
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 .moreValue__card-content {
-  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;

@@ -1,24 +1,22 @@
 .moreValue {
-    padding: 139px 95px 74px;
+    padding: 139px 189px 74px 95px;
 
     &__wrap {
         display: flex;
-        margin: 0 -109px;
+        margin: 0 -90px;
     }
 
     &__box {
         width: 50%;
-        padding: 0 109px;
+        padding: 0 90px;
     }
 
     &__card {
         height: 714px;
         display: flex;
         align-items: center;
-        border: 1px solid red;
 
         &-content {
-            border: 1px solid blue;
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-start;
