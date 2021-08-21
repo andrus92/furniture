@@ -1,0 +1,49 @@
+.moreValue {
+    padding: 139px 95px 74px;
+
+    &__wrap {
+        display: flex;
+        margin: 0 -109px;
+    }
+
+    &__box {
+        width: 50%;
+        padding: 0 109px;
+    }
+
+    &__card {
+        height: 714px;
+        display: flex;
+        align-items: center;
+        border: 1px solid red;
+
+        &-content {
+            border: 1px solid blue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            &-text1, &-text2 {
+                display: block;
+                font: $h1-font;
+            }
+        
+            &-text1 {
+                color: $white-color;
+                text-shadow: 0 0 2px $main-color;
+            }
+
+            &-text2 {
+                margin-bottom: 64px;
+            }
+        }
+    }
+
+    &__card img {
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+}

@@ -75,10 +75,10 @@ a {
 .btn {
   display: block;
   width: 100%;
-  padding: 25px 55px;
+  padding: 29px 69px;
   border: none;
   color: #fff;
-  font: 600 22px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  font: 600 26px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
   background-color: #F7515C;
   text-align: center;
   cursor: pointer;
@@ -144,8 +144,49 @@ a {
   padding: 0 42px;
 }
 
+.moreValue {
+  padding: 139px 95px 74px;
+}
+.moreValue__wrap {
+  display: flex;
+  margin: 0 -109px;
+}
+.moreValue__box {
+  width: 50%;
+  padding: 0 109px;
+}
+.moreValue__card {
+  height: 714px;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+.moreValue__card-content {
+  border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.moreValue__card-content-text1, .moreValue__card-content-text2 {
+  display: block;
+  font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+.moreValue__card-content-text1 {
+  color: #fff;
+  text-shadow: 0 0 2px #282A30;
+}
+.moreValue__card-content-text2 {
+  margin-bottom: 64px;
+}
+.moreValue__card img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
 .footer {
-  margin: 74px 0 0;
+  padding: 74px 100px 0;
 }
 .footer hr {
   height: 2px;
