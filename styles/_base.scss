@@ -40,3 +40,15 @@ a {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+
+
+.white-title,
+.black-title {
+    font: $h1-font;
+}
+
+.white-title {
+    color: $white-color;
+    text-shadow: 0 0 2px $main-color;
+}

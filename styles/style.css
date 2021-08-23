@@ -72,6 +72,16 @@ a {
   margin: 0 auto;
 }
 
+.white-title,
+.black-title {
+  font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.white-title {
+  color: #fff;
+  text-shadow: 0 0 2px #282A30;
+}
+
 .btn {
   display: block;
   width: 100%;
@@ -152,7 +162,6 @@ a {
   margin: 0 -40px;
 }
 .more-value__box {
-  border: 1px solid red;
   width: 50%;
   padding: 0 40px;
   display: flex;
@@ -169,25 +178,18 @@ a {
   z-index: -1;
 }
 .more-value__card {
-  border: 1px solid green;
   max-height: 714px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .more-value__card-content {
-  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.more-value__card-content-text1, .more-value__card-content-text2 {
+.more-value__card-content span {
   display: block;
-  font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
-}
-.more-value__card-content-text1 {
-  color: #fff;
-  text-shadow: 0 0 2px #282A30;
 }
 .more-value__card-content-text2 {
   margin-bottom: 64px;
