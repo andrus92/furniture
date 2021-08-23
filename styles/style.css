@@ -115,9 +115,6 @@ a {
   transition: all 0.3s;
 }
 
-.header {
-  padding: 0 71px;
-}
 .header__wrap {
   display: flex;
   align-items: center;
@@ -188,9 +185,6 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.more-value__card-content span {
-  display: block;
-}
 .more-value__card-content-text2 {
   margin-bottom: 64px;
 }
@@ -202,7 +196,7 @@ a {
 }
 
 .footer {
-  padding: 74px 100px 0;
+  padding-top: 74px;
 }
 .footer__wrap {
   border-top: 2px solid #282A30;
@@ -221,18 +215,20 @@ a {
   margin-bottom: 51px;
   letter-spacing: 1px;
 }
-.footer__card-list-item a {
+.footer__card-list-item {
+  display: block;
+  margin-bottom: 27px;
+}
+.footer__card-list-item-link {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  display: block;
-  margin-bottom: 27px;
   opacity: 0.8;
   letter-spacing: 1px;
   position: relative;
 }
-.footer__card-list-item a:before {
+.footer__card-list-item-link:before {
   position: absolute;
   content: "";
   width: 0;
@@ -242,10 +238,10 @@ a {
   bottom: -2px;
   transition: all 0.3s;
 }
-.footer__card-list-item a:hover {
+.footer__card-list-item-link:hover {
   color: #F7515C;
 }
-.footer__card-list-item a:hover:before {
+.footer__card-list-item-link:hover:before {
   width: 100%;
 }
 
