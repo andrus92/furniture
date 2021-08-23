@@ -1,22 +1,41 @@
-.moreValue {
-    padding: 139px 189px 74px 95px;
+.more-value {
+    padding: 139px 0 74px;
 
     &__wrap {
         display: flex;
-        margin: 0 -90px;
+        margin: 0 -40px;
     }
 
     &__box {
+        border: 1px solid red;
         width: 50%;
-        padding: 0 90px;
-    }
-
-    &__card {
-        height: 714px;
+        padding: 0 40px;
         display: flex;
         align-items: center;
 
+        &--decor {
+            position: relative;
+        
+            &:before {
+                position: absolute;
+                content: url(../img/more-value-decor.png);
+                right: 30px;
+                bottom: 50px;
+                z-index: -1;
+            }
+        }
+
+    }
+
+    &__card {
+        border: 1px solid green;
+        max-height: 714px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         &-content {
+            border: 1px solid blue;
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-start;

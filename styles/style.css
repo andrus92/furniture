@@ -144,39 +144,55 @@ a {
   padding: 0 42px;
 }
 
-.moreValue {
-  padding: 139px 189px 74px 95px;
+.more-value {
+  padding: 139px 0 74px;
 }
-.moreValue__wrap {
+.more-value__wrap {
   display: flex;
-  margin: 0 -90px;
+  margin: 0 -40px;
 }
-.moreValue__box {
+.more-value__box {
+  border: 1px solid red;
   width: 50%;
-  padding: 0 90px;
-}
-.moreValue__card {
-  height: 714px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
 }
-.moreValue__card-content {
+.more-value__box--decor {
+  position: relative;
+}
+.more-value__box--decor:before {
+  position: absolute;
+  content: url(../img/more-value-decor.png);
+  right: 30px;
+  bottom: 50px;
+  z-index: -1;
+}
+.more-value__card {
+  border: 1px solid green;
+  max-height: 714px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more-value__card-content {
+  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.moreValue__card-content-text1, .moreValue__card-content-text2 {
+.more-value__card-content-text1, .more-value__card-content-text2 {
   display: block;
   font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
 }
-.moreValue__card-content-text1 {
+.more-value__card-content-text1 {
   color: #fff;
   text-shadow: 0 0 2px #282A30;
 }
-.moreValue__card-content-text2 {
+.more-value__card-content-text2 {
   margin-bottom: 64px;
 }
-.moreValue__card img {
+.more-value__card img {
   max-height: 100%;
   max-width: 100%;
   height: auto;
@@ -186,11 +202,8 @@ a {
 .footer {
   padding: 74px 100px 0;
 }
-.footer hr {
-  height: 2px;
-  background: #282A30;
-}
 .footer__wrap {
+  border-top: 2px solid #282A30;
   display: flex;
   flex-wrap: wrap;
   padding: 100px 0 71px;

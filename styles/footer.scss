@@ -1,12 +1,9 @@
 .footer {
 
     padding: 74px 100px 0;
-    & hr {
-        height: 2px;
-        background: $main-color;
-    }
 
     &__wrap {
+        border-top: 2px solid $main-color;
         display: flex;
         flex-wrap: wrap;
 
