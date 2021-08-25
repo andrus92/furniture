@@ -85,10 +85,11 @@ a {
 .btn {
   display: block;
   width: 100%;
-  padding: 29px 69px;
+  padding: 29px 55px;
   border: none;
   color: #fff;
   font: 600 26px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
   background-color: #F7515C;
   text-align: center;
   cursor: pointer;
@@ -216,12 +217,12 @@ a {
 .footer__card-title {
   font: 700 26px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
   display: block;
-  margin-bottom: 51px;
-  letter-spacing: 1px;
+  margin-bottom: 45px;
+  letter-spacing: -2px;
 }
 .footer__card-list-item {
   display: block;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 .footer__card-list-item-link {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -427,11 +428,12 @@ a {
   font-size: 60px;
 }
 .about__text-title2 {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 .about__text-info {
   opacity: 50%;
   margin-bottom: 48px;
+  line-height: 2.3;
 }
 
 /*# sourceMappingURL=style.css.map */
