@@ -1,5 +1,7 @@
 .header {
 
+    padding: 78px 0;
+
     &__wrap {
         display: flex;
         align-items: center;
@@ -26,7 +28,7 @@
         }
 
         &-item {
-            padding: 0 53px;
+            padding: 0 57px;
         }
 
         &-link {
@@ -46,5 +48,6 @@
 
     &__action {
         padding: 0 42px;
+        line-height: 0;
     }
 }
