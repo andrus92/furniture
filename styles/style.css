@@ -437,4 +437,115 @@ a {
   line-height: 2.3;
 }
 
+.advantages {
+  padding: 103px 0 133px;
+}
+.advantages__label {
+  display: block;
+  font: 700 40px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+.advantages__caption {
+  display: block;
+  font: 700 100px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 0 0 2px #282A30;
+  margin-bottom: 36px;
+}
+.advantages__wrap {
+  position: relative;
+  padding: 51px 90px 84px 120px;
+}
+.advantages__img {
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-bottom: 57%;
+  box-shadow: 0 4px 100px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.advantages__img:before {
+  position: absolute;
+  content: "";
+  width: 482px;
+  height: 386px;
+  left: 70px;
+  bottom: -192px;
+  z-index: -1;
+  background-image: url(../img/advantages-decor.svg);
+  background-repeat: no-repeat;
+}
+.advantages__card {
+  max-width: 450px;
+  box-shadow: 20px 4px 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 44px 44px 62px 44px;
+  display: flex;
+  position: absolute;
+}
+.advantages__card--full-services {
+  left: 0;
+  top: 141px;
+}
+.advantages__card--long-warranty {
+  top: 0;
+  right: 131px;
+}
+.advantages__card--modern-design {
+  right: 0;
+  bottom: 0;
+}
+.advantages__number {
+  min-width: 51px;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: rgba(247, 81, 92, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 700 20px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
+  color: #F7515C;
+  margin-top: -13px;
+}
+.advantages__text {
+  padding-left: 22px;
+}
+.advantages__title {
+  display: block;
+  font: 700 20px/1.2 "Montserrat", Arial, Helvetica, sans-serif;
+  margin-bottom: 13px;
+}
+.advantages__info {
+  color: rgba(40, 42, 48, 0.4);
+  font: 400 14px/1.36 "Nunito", Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1120px) {
+  .advantages__card--long-warranty {
+    right: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .advantages__wrap {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__img {
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 40px;
+    padding-bottom: 0;
+  }
+  .advantages__card {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .advantages__card--long-warranty {
+    align-self: flex-end;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

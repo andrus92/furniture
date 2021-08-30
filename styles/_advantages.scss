@@ -1,0 +1,134 @@
+.advantages {
+    padding: 103px 0 133px;
+
+    &__label {
+        display: block;
+        font: $h4-font;
+    }
+
+    &__caption {
+        display: block;
+        font: $h1-font;
+        color: $white-color;
+        text-shadow: 0 0 2px $main-color;
+        margin-bottom: 36px;
+    }
+
+    &__wrap {
+        position: relative;
+        padding: 51px 90px 84px 120px;
+    }
+
+    &__img {
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-bottom: 57%;
+        box-shadow: 0 4px 100px rgba($black-color, 0.25);
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 482px;
+            height: 386px;
+            left: 70px;
+            bottom: -192px;
+            z-index: -1;
+            background-image: url(../img/advantages-decor.svg);
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__card {
+        max-width: 450px;
+        box-shadow: 20px 4px 100px rgba($black-color, 0.1);
+        background-color: $white-color;
+        padding: 44px 44px 62px 44px;
+        display: flex;
+        position: absolute;
+
+        &--full-services  {
+            left: 0;
+            top: 141px;
+        }
+
+        &--long-warranty {
+            top: 0;
+            right: 131px;
+        }
+
+        &--modern-design {
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    &__number {
+        min-width: 51px;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        background-color: rgba($primary-color, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: $h6-font;
+        color: $primary-color;
+        margin-top: -13px;
+    }
+
+    &__text {
+        padding-left: 22px;
+    }
+
+    &__title {
+        display: block;
+        font: $h6-font;
+        margin-bottom: 13px;
+    }
+
+    &__info {
+        color: rgba($main-color, 0.4);
+        font: 400 14px/1.36  $nunito-font;
+    }
+}
+
+@media (max-width: 1120px) {
+    .advantages {
+        &__card {
+            &--long-warranty {
+                right: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .advantages {
+
+        &__wrap {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            position: absolute;
+            z-index: -1;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 40px;
+            padding-bottom: 0;
+        }
+
+        &__card {
+            position: static;
+            margin-bottom: 20px;
+            
+            &--long-warranty {
+                align-self: flex-end;
+            }
+        }
+    }
+}
