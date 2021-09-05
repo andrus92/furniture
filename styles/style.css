@@ -200,6 +200,44 @@ a {
   width: auto;
 }
 
+.product {
+  padding: 80px 0 136px;
+}
+.product__main-title {
+  display: block;
+  font: 600 40px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+.product__main-title--secondary {
+  font-weight: 700px;
+  font-size: 100px;
+}
+.product__wrap {
+  display: flex;
+  margin: 0 -18px;
+}
+.product__box {
+  width: 25%;
+  padding: 0 18px;
+}
+.product__card {
+  text-align: center;
+}
+.product__img {
+  height: 312px;
+  background-repeat: no-repeat;
+  margin-bottom: 44px;
+}
+.product__title {
+  display: block;
+  font: 600 22px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+  margin-bottom: 17px;
+}
+.product__price {
+  display: block;
+  color: rgba(40, 42, 48, 0.3);
+  font: 400 22px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
+}
+
 .footer {
   padding-top: 74px;
 }

@@ -1,0 +1,46 @@
+.product {
+    padding: 80px 0 136px;
+
+    &__main-title {
+        display: block;
+        font: 600 40px/1.22  $montserrat-font;
+
+        &--secondary {
+            font-weight: 700px;
+            font-size: 100px;
+        }
+    }
+
+    &__wrap {
+        display: flex;
+        margin: 0 -18px;
+    }
+
+    &__box {
+        width: 25%;
+        padding: 0 18px;
+    }
+
+    &__card {
+        text-align: center;
+    }
+
+    &__img {
+        height: 312px;
+        background-repeat: no-repeat;
+        margin-bottom: 44px;
+    }
+
+    &__title {
+        display: block;
+        font: 600 22px/1.22  $montserrat-font;
+        margin-bottom: 17px;
+    }
+
+    &__price {
+        display: block;     
+        color: rgba($main-color, 0.3);
+        font: 400 22px/1.22  $montserrat-font;
+    }
+
+}
